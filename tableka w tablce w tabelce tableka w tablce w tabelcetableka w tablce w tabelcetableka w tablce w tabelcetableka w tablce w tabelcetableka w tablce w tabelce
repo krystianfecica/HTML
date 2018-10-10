@@ -1,3 +1,4 @@
+
 <DOCTYPE html>
 <html>
 	<head>
@@ -6,51 +7,51 @@
 <body>
 	<table border=0 align="center" width="80%">
 		<tr height="20px">
-			<td><table border=1 width="80%" align="center"></td>
+			<td><table border=0 width="80%" align="center"></td>
 		</tr>
 		<tr height="30px">
-			<td colspan=10 align="center"> LOGO </td>
+			<td colspan=10 align="center"><img src=https://www.facebook.com/images/fb_icon_325x325.png></td>
 		</tr>
 		<tr>
-			<td colspan=10 align="center"> Image Banner </td>
+			<td colspan=10 align="center"><img src=https://imagazine.pl/wp-content/uploads/2017/08/New-2017-YouTube-icon-iOS.png></td>
 		</tr>
 		<tr height="80px">
 			<td>
-				<table height="40px" border=1 width="800" align="center">
+				<table height="40px" border=0 width="800" align="center">
 			</td>
 		<tr>
-			<td> %s </td>
+			<td><img src=https://seeklogo.com/images/T/twitter-2012-negative-logo-5C6C1F1521-seeklogo.com.png></td>
 		</tr>
 		</table>
 		<tr height="220px">
 			<td>
-				<table height="200px" border=1 width="1000" align="center">
+				<table height="200px" border=0 width="1000" align="center">
 			</td>
 		</tr>
 		<tr>
 			<td>
-				<table cellpadding="0px" height="70px" border=1 width="900" align="center">
+				<table cellpadding="0px" height="70px" border=0 width="900" align="center">
 			</td>
 		</tr>
 		<tr height="100px">
 			<td width="33%"></td><td width="33%"></td><td width="33%"></td>
 		</tr>
 		<tr height="30px">
-			<td align="center">Give us a call</td><td align="center">Email us</td><td align="center">Browse FAQ Page</td>
+			<td align="center"><img src=https://seeklogo.com/images/L/linkedin-in-icon-logo-2E34704F04-seeklogo.com.png></td><td align="center"><img src=https://static.makeuseof.com/wp-content/uploads/2013/02/Email-Logo.png></td><td align="center"><img src=https://digitalphone.io/wp-content/uploads/2018/03/FAQ.png></td>
 		</tr>
 				</table>
 				</table>
-	<table border=1 width="800px" height="100px" align="center">
+	<table border=0 width="800px" height="100px" align="center">
 		<tr height="80px"align="center">
-			<td width="80px">TAK</td>
+			<td width="80px"><img src=http://archwwa.net/wp-content/uploads/2016/05/Tak-na-serio.png></td>
 			<td width="30px"></td>
-			<td width="80px">TAK</td>
+			<td width="80px"><img src=http://archwwa.net/wp-content/uploads/2016/05/Tak-na-serio.png></td>
 			<td width="30px"></td>
-			<td width="80px">TAK</td>
+			<td width="80px"><img src=http://archwwa.net/wp-content/uploads/2016/05/Tak-na-serio.png></td>
 			<td width="30px"></td>
-			<td width="80px">TAK</td>
+			<td width="80px"><img src=http://archwwa.net/wp-content/uploads/2016/05/Tak-na-serio.png></td>
 			<td width="30px"></td>
-			<td width="80px">TAK</td>
+			<td width="80px"><img src=http://archwwa.net/wp-content/uploads/2016/05/Tak-na-serio.png></td>
 		</tr>
 	</table>
 	</table>
