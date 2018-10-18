@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+			<map name="stopka">
+				<area shape="rectangle" href="tel:884664832" coords="210,30,350,60">
+				<area shape="rectangle" href="mailto:name@mail.com" coords="210,52,380,80">
+				<area shape="rectangle" href="https//yoururl.com" coords="210,81,350,110">
+				<area shape="rectangle" href="https://www.google.pl/maps/search/594+main+street+downtown+La/@34.0379081,-118.2641354,12.5z" coords="210,111,480,140">
+				<area shape="circle" href="https://pl-pl.facebook.com/" coords="238,174,10">
+				<area shape="circle" href="https://twitter.com/?lang=pl" coords="272,176,10">
+				<area shape="circle" href="https://pl.linkedin.com/" coords="310,179,10">
+				<area shape="circle" href="https://www.google.pl/" coords="343,175,10">
+				<area shape="circle" href="http://ezn.edu.pl/" coords="378,175,10">
+			</map>	
+			<img usemap="#stopka" width=634 height=213 src="sygnatura.png">
+	</body>
+</html>
