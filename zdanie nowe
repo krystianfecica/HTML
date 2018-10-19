@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<table height="40px" border=0 width="800" align="center" bgcolor="210e21">
+			<tr bgcolor="210e21">
+				<td align="center"><font color="43a7a7">INQUIRES</font></td>
+			</tr>
+		</table>
+		<table height="40px" border=0 width="800" align="center" bgcolor="62bcdb">
+			<tr align="center" height="35px">
+				<td><input type="text" name="nazwisko" placeholder="Wpisz nazwisko" size=32></td>
+				<td><input type="text" name="imię" placeholder="Wpisz imię" size=32></td>
+			</tr>
+			<tr align="center" height="35px">
+				<td><input type="text" name="email" placeholder="Wpisz email" size=32></td>
+				<td><input type="text" name="phone" placeholder="Wpisz numer telefonu" size=32></td>
+			</tr>
+		</table>
+		<table height="40px" border=0 width="800" align="center" bgcolor="62bcdb">
+			<tr height="50px">
+				<td><div style="width: 700px; margin: 0 auto;">
+					<select name="jezyk" multiple size=2>
+					<option>PL</option>
+					<option selected>EN</option>
+					<option>DE</option>
+				</select>
+			</tr>
+		</table>
+		<table height="180px" border=0 width="800" align="center" bgcolor="62bcdb">
+			<tr>
+				<td><div style="width: 700px; margin: 0 auto;"><textarea style="resize: none;" placeholder="Wpisz tekst swojej wypowiedzi" name="długi tekst" rows=10 cols=70></textarea></td>
+			</tr>
+		</table>
+		<table height="40px" border=0 width="800" align="center" bgcolor="62bcdb">
+			<tr>
+				<td align="right"><input type="submit" value="Wyślij!">
+	</body>
+</html>
