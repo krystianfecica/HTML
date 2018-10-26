@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link href="https://fonts.googleapis.com/css?family=Bree+Serif|Montserrat|Notable|Pacifico|Open+Sans" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<table height="40px" border=0 width="560" align="center" bgcolor="#F3E2A9">
+			<tr align="center">
+				<td><font face="Verdana" size=3><h4>Pojawiły się nowe ogłoszenia zgodnie z Twoimi kryteriami wyszukiwania:</h4></td>
+			</tr>
+			<tr align="center">
+			<td><font face="Times New Roman" size=4><h3>Wrocław</h3></td>
+			</tr>
+			<tr align="center">
+			<td><font face="Montrserrat" size=3><h5>Mieszkania na sprzedaż, miejscowość dolonośląskie, Wrocław, informacje dodatkowe garaż/miejsce parkingowe, balkon, rynek wtórny, sortuj jakość ogloszeń: od najwyższej.</h5></td>
+		</table>
+		<table height="40px" border=0 width="400" align="center">
+			<tr>
+			<td><img src=pobrane.jpg></td>
+			<td><pre><font face="Verdana" size=2><div style="width: 100px; margin: 0 auto;">450 000zł</pre>
+			<pre><font face="Verdana" size=2><div style="width: 100px; margin: 0 auto;">Wrocław, Muchobór Wielki</pre>
+			<pre><font face="Montserrat" size=2><div style="width: 100px; margin: 0 auto;">3 pokoje 57,02 m2 7 892 zł/m2</pre>
+			<pre><font face="Montserrat" size=2><div style="width: 100px; margin: 0 auto;">Piękne 3 pokoje 57 m2 Muchobór Wileki Graniczna 2b</pre></td>
+		</table>
+		<table height="40px" border=0 width="400" align="center">
+			<tr>
+			<td><img src=pobrane1.jpg></td>
+			<td><pre><font face="Verdana" size=2><div style="width: 100px; margin: 0 auto;">349 000zł</pre>
+			<pre><font face="Verdana" size=2><div style="width: 100px; margin: 0 auto;">Wrocław, Maślice</pre>
+			<pre><font face="Montserrat" size=2><div style="width: 100px; margin: 0 auto;">2 pokoje 51m 2 6 843 zł/m2</pre>
+			<pre><font face="Montserrat" size=2><div style="width: 100px; margin: 0 auto;">Bardzo ładne, 2-pokojowe z dużym balkonem i klimą!</pre></td>
+		</table>
+		<table height="40px" border=0 width="400" align="center">
+			<tr>
+			<td><img src=pobrane2.jpg></td>
+			<td><pre><font face="Verdana" size=2><div style="width: 100px; margin: 0 auto;">409 999zł</pre>
+			<pre><font face="Verdana" size=2><div style="width: 100px; margin: 0 auto;">Wrocław, dolnośląskie</pre>
+			<pre><font face="Montserrat" size=2><div style="width: 100px; margin: 0 auto;">3 pokoje 62,70 m2 6 539 zł/m2</pre>
+			<pre><font face="Montserrat" size=2><div style="width: 100px; margin: 0 auto;">centrum/3pok/.rozkład/balkon/bagaż</pre></td>
+		</table>
+		<table height="40px" border=0 width="400" align="center">
+			<tr>
+			<td><img src=pobrane3.jpg></td>
+			<td><pre><font face="Verdana" size=2><div style="width: 100px; margin: 0 auto;">599 999zł</pre>
+			<pre><font face="Verdana" size=2><div style="width: 100px; margin: 0 auto;">Wrocław, dolnośląskie</pre>
+			<pre><font face="Montserrat" size=2><div style="width: 100px; margin: 0 auto;">3 pokoje 82,90 m2 7 238 zł/m2</pre>
+			<pre><font face="Montserrat" size=2><div style="width: 100px; margin: 0 auto;">Piękne Lux 83m2 Krzyki Skarbowców 82 Lux/Garaż/</pre></td>
+		</table>
+		<table height="40px" border=0 width="400" align="center">
+			<tr>
+			<td><img src=pobrane4.jpg></td>
+			<td><pre><font face="Verdana" size=2><div style="width: 100px; margin: 0 auto;">123 000zł</pre>
+			<pre><font face="Verdana" size=2><div style="width: 100px; margin: 0 auto;">Wrocław, Muchobór Wielki</pre>
+			<pre><font face="Montserrat" size=2><div style="width: 100px; margin: 0 auto;">4 pokoje 69,68 m2 7 600 zł/m2</pre>
+			<pre><font face="Montserrat" size=2><div style="width: 100px; margin: 0 auto;">Piękne 4 pokoje z widokiem na morze</pre></td>
+		</table>
+		<table height="40px" border=0 width="560" align="center">
+		<tr>
+		<td><font color="blue">Zobacz więcej podobnych ofert</font></td>
+		<td><font color="blue">Zarządzaj powiadomieniami</font></td>
+		<td><font color="blue">Wypisz się</font></td>
+	</body>
+</html>
