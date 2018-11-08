@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+	</head>
+	<body div style="background-color: #696969">
+	<div style="width: 600px; height: 30px; margin: 0 auto; color: red;"><b> Make me Red using a HEX code</b></div>
+	<div style="width: 700px; height: 30px; margin: 0 auto; color: orange;">Whats up Yo! Style me with a `color name` of your choice</div>
+	<div style="width: 700px; height: 30px;	 margin: 0 auto; color: silver;">Create a CLASS for me and pick a color!</div>
+	<div style="width: 700px; margin: 0 auto; color: lightblue; background-color:red; border: 2px solid #00ffff;">Create an ID for me and pick a light background. Give me a super rad color and border.</div>
+	</body>
+</html>
