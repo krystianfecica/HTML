@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link href="https://fonts.googleapis.com/css?family=Bree+Serif|Montserrat|Notable|Pacifico|Open+Sans" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<form>
+	<table height="40px" border=0 width="30%" align="center">
+		<tr>
+			<td>Imię i nazwisko lub nazwa firmy<font color="green">*</font></td>
+		</tr>
+		<tr>
+			<td><input type=text name=text size=30></td>
+		</tr>
+		<tr>
+			<td>Adres e-mail<font color="green">*</font></td>
+		</tr>
+		<tr>
+			<td><input type=email name=email size=30></td>
+		</tr>
+		<tr>
+			<td>Typ użytkownika<font color="green">*</font></td>
+		</tr>
+		<tr>
+			<td>
+				<select name="nazwa">
+					<option>Kobieta</option>
+					<option>Mężczyzna</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>Login konta lub NIP<font color="green">*</font></td>
+		</tr>
+		<tr>
+			<td><input type=text size=30></td>
+		</tr>
+		<tr>
+			<td>Jakiej sprawy dotyczy zgłoszenie?<font color="green">*</font></td>
+		</tr>
+		<tr>
+			<td>
+				<select>
+					<option>Kupić kota</option>
+					<option>Kupić psa</option>
+					<option>Sprzedać psa</option>
+					<option>Sprzedać kota</option>
+					<option>Kupić chomika</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>Opisz szczegóły twojego zgłoszenia<font color="green">*</font></td>
+		</tr>
+		<tr>
+			<td>
+				<textarea name="nazwa" cols="50" rows="10"></textarea>
+			</td>
+		</tr>
+	</table>
+		</form>
+	</body>
+</html>
