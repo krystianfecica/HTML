@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			.calculator {
+				display:grid;
+				grid-template-columns: 10%;
+				text-align:center;
+			.button { 
+				box-sizing: border-box:
+				background-color: #FAFAFA
+				padding: 12px;
+				text-aign:center;
+			}
+			.button orange { 
+				font-szie: 20px;
+				text-align:center;
+				background-color: orange;
+				color: white;
+			}
+			}
+			.row {
+				outline: 1px solid red;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<div class="calculator">
+			<div class="button">C</div>
+			<div class="button">%</div>
+			<div class="button">-</div>
+			<div class="button orange">/</div>
+			<div class="button">7</div>
+			<div class="button">8</div>
+			<div class="button">9</div>
+			<div class="button orange">x</div>
+			<div class="button">4</div>
+			<div class="button">5</div>
+			<div class="button">6</div>
+			<div class="button">-</div>
+			<div class="button">1</div>
+			<div class="button">2</div>
+			<div class="button">3</div>
+			<div class="button orange">+</div>
+		</div>
+	</body>
+</html>
