@@ -1,0 +1,45 @@
+.calculator {
+				display: grid;
+				grid-template-columns: 25% 25% 25% 25%;
+				outline: 1px solid black;
+				text-align:center;
+				margin:auto auto;
+				width: 200px;
+				height: 150px;
+			}	
+			.buttonblack {
+			display: grid;
+			background-color: black;
+			color: white;
+			text-align:right;
+			margin:auto auto;
+			width: 200px;
+			outline: 1px solid black;
+			height: 35px;
+			line-height: 35px;
+			}
+			.button { 
+				background-color: grey;
+				text-aign:center;
+				color: black;
+				outline: 1px solid black;
+				line-height: 35px;
+			}
+			.buttonorange { 
+				font-size: 20px;
+				text-align:center;
+				background-color: orange;
+				color: white;
+				outline: 1px solid black;
+				line-height: 35px;
+			}
+			.buttondolny {
+			display: grid;
+			grid-template-columns: 50% 25% 25%;
+			outline: 1px solid black;
+			text-align:center;
+			margin:auto auto;
+			width: 200px;
+			height: 35px;
+			line-height: 35px;
+			}
