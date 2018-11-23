@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="https://fonts.googleapis.com/css?family=Bree+Serif|Montserrat|Notable|Pacifico|Open+Sans" rel="stylesheet">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" media=" screen " href="12345.css">
+		<link rel="stylesheet" media="screen and (max-width: 576px)"  href="123456.css">
+		<style>
+			img {
+				border: 4px solid black;
+				background-color: lightgreen;
+				width: 160px;
+				height: 160px;
+				box-sizging: border box;
+				border-radius: 50%;
+				text-align: center;
+			}
+			padding {
+			display: 0;
+			padding: 0 0 20px 0;
+			}
+		</style>
+	</head>
+	<body>	
+	<div class=padding>
+		<div>
+		<pre>                  A   B   C    D    E    F    G    H    I    J    K    L    M    N    O    P    R    S    T    W    X    Y   Z</pre>
+		</div>
+		<div>
+		<img src="https://orig00.deviantart.net/82d7/f/2010/161/7/d/bunny_avatar_100x100_by_createvi.png" height=130px> <div face="Montserrat" margin: auto 0;> Kominik Dalata </div>
+		</div>
+		<div>
+		<img src="https://orig00.deviantart.net/82d7/f/2010/161/7/d/bunny_avatar_100x100_by_createvi.png" height=70px>
+		</div>
+		<div>
+		<img src="https://orig00.deviantart.net/82d7/f/2010/161/7/d/bunny_avatar_100x100_by_createvi.png" height=70px>
+		</div>
+		<div>
+		<img src="https://orig00.deviantart.net/82d7/f/2010/161/7/d/bunny_avatar_100x100_by_createvi.png" height=70px>
+		</div>
+		<div>
+		<img src="https://orig00.deviantart.net/82d7/f/2010/161/7/d/bunny_avatar_100x100_by_createvi.png" height=70px>
+		</div>
+	</div>	
+	</body>
+</html>	
