@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <style media="screen">
+      .container{
+        display: flex;
+        height: 100vh;
+      }
+      nav{
+        flex-grow:1.1;
+        background-color: purple;
+      }
+      .obok{
+        display: flex;
+        flex-grow:3.5;
+        flex-direction: column;
+      }
+      header, footer{
+        background-color: blue;
+        flex-basis: 20vh;
+      }
+      main{
+        display:flex;
+        flex-basis: 70vh;
+      }
+      article{
+        flex-grow:3.5
+      }
+      aside{
+        flex-grow:0.95;
+        background-color: pink;
+      }
+	  
+		article {
+			background-color: yellow;
+		}
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        Nav
+      </nav>
+      <div class="obok">
+        <header>Header</header>
+        <main>
+          <article> Article</article>
+          </article>
+          <aside> Aside</aside>
+        </main>
+        <footer>Footer</footer>
+      </div>
+
+    </div>
+  </body>
+</html>
