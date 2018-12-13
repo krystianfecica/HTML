@@ -1,0 +1,119 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<style>
+			@keyframes zmiania_koloru{
+					0% , 100%{
+					background-color:green;
+					}
+					50%{
+					background-color:blue;
+					}
+				}
+			
+		.oval {
+			width: 192px;
+			height: 80px;
+			background: grey;
+			border-radius: 50%;
+			border: 1px solid black;
+			margin: 0 auto;
+			position: relative;
+			top: 42;
+			animation-name: zmiana-kolor;
+			animation-duration: 5s;
+			animation-iteration-cont:infinite;
+		}
+		.rectangle { 
+			width: 192px;
+			height: 192px;
+			background: green;
+			border: 1px solid black;
+			margin: 0 auto;
+			animation-name: zmiana-kolor;
+			animation-duration: 5s;
+			animation-iteration-cont:infinite;
+
+		}
+				.rectangle1 { 
+			width: 192px;
+			height: 192px;	
+			background: red;
+			border: 1px solid black;
+			margin: 0 auto;
+			position: relative;
+			top: -92;
+			z-index: 1;
+		}
+		.oval1 {
+			width: 192px;
+			height: 80px;
+			background: red;
+			border-radius: 50%;
+			border: 1px solid black;
+			margin: 0 auto;
+			position: relative;
+			top: -130;
+			z-index: 3;
+		}	
+			
+			.oval5 {
+			width: 90px;
+			height: 50px;
+			background: grey;
+			border-radius: 50%;
+			border: 1px solid black;
+			margin: 0 auto;
+			position: relative;
+			top: -158;
+			z-index: 2;
+			border-bottom: transparent;
+		}	
+			.rectangle5 { 
+			width: 90px;
+			height: 100px;	
+			background: grey;
+			border: 2px solid black;
+			margin: 0 auto;
+			position: relative;
+			top: -182;
+			z-index: 1;
+			border-bottom: transparent;
+		}
+			.oval6 {
+			width: 90px;
+			height: 30px;
+			background: grey;
+			border-radius: 50%;
+			border: 1px solid black;
+			margin: 0 auto;
+			position: relative;
+			top: -195;
+			z-index: 2;
+			border-bottom: transparent;
+		}	
+		.oval7 {
+			width: 192px;
+			height: 80px;
+			background: green;
+			border-radius: 50%;
+			border: 1px solid black;
+			margin: 0 auto;
+			position: relative;
+			top: -43;
+			z-index: 2;
+			border-bottom: transparent;
+		}	
+		</style>
+	</head>
+	<body>
+			<div class="oval"></div>
+			<div class="rectangle"></div>
+			<div class="oval7"></div>
+			<div class="rectangle1"></div>
+			<div class="oval1"></div>
+			<div class="oval5"></div>
+			<div class="rectangle5"></div>
+			<div class="oval6"></div>
+	</body>
+
