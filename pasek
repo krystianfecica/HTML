@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+		<style>
+			@keyframes zmiania_koloru{
+					0%{left:670px;}
+					50%{left:250px;}
+					100%{left:670px;}
+				}	
+
+			.pasek {
+				background-color: red;
+				width: 500px;
+				height: 100px;
+				position:absolute;
+				right: 750px;
+			}
+			.pasek1 {
+				background-color: black;
+				width: 730px;
+				height: 100px;
+				position:absolute;
+				left: 530px;
+				animation: move 10s linear infinite;
+			}
+		
+			.trojkat {
+				position:absolute;
+				top: 8px;
+				left: 530px;
+				width: 0;
+				height: 0;
+				border: 50px solid transparent;
+				border-left-color: red;
+			}
+			
+			.zmiana {
+			position:absolute;
+				animation-name:zmiana_koloru;
+				animation-duration: 2.3s;
+				animation-iteeration-count:infinite;
+				animation-delay:0s;
+			}
+		
+			.zawartosc {
+				z-index:70;
+				position:absolute;
+				top:10px;
+				left:600px;
+				height:10px;
+			}
+		</style>
+		
+	</head>
+	
+	<body>
+		<div class="pasek">Breaking news</div>
+		<div class="pasek1"></div>
+		<div class="zawartosc"><font color="white"><p class="zmiana">Lorem psad]asdasdasdasda</p></div></font>
+		<div class="trojkat"></div>
+	</body>
+	
+</html>	
