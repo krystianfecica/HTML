@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			
+			.switch {
+			  position: relative;
+			  display: inline-block;
+			  width: 60px;
+			  height: 34px;
+			}
+			
+			.slider {
+			  position: absolute;
+			  cursor: pointer;
+			  top: 0;
+			  left: 0;
+			  right: 0;
+			  bottom: 0;
+			  background-color: #C0C0C0;
+			  transition: .5s;
+			}
+			
+			.slider::before {
+			  position: absolute;
+			  content: "";
+			  height: 26px;
+			  width: 26px;
+			  left: 4px;
+			  bottom: 4px;
+			  background-color: #white;
+			  transition: .5s;
+			  x-l
+			  }
+			  
+			  .slider::before {
+				  position: absolute;
+				  content: "";
+				  height: 26px;
+				  width: 26px;
+				  left: 4px;
+				  bottom: 4px;
+				  background-color: red;
+				  transition: .5s;
+				  border-radius: 50%;
+			  }
+			  
+			  input:focus + .slider {
+				box-shadow: 5px 5px 5px #222BC3;
+			}
+				.switch input { 
+				  opacity: 0;
+				  width: 0;
+				  height: 0;
+			}
+			
+			input:checked + .slider:before {
+			  -webkit-transform: translateX(26px);
+			  -ms-transform: translateX(26px);
+			  transform: translateX(26px);
+			  background-color: #00FF00;
+			}
+			
+			.slider.round {
+				border-radius: 50px;
+			}
+			
+			.slider.round:before {
+			  border-radius: 50%;
+			}
+						
+		
+			input[type=checkbox]:checked ~ .smile {
+				display: none;
+			}
+			input[type=checkbox]:not(:checked) ~ .sad {
+				display: none;
+			}
+			input{type=checkbox] {
+				width: 0p
+				height: 0;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<div>
+			<input type="checkbox">
+			<span class="smile"> :) </span>
+			<span class="sad"> ;( </span>
+		</div>
+		<div>
+			<label class="switch">
+				<input type="checkbox">
+				<span class="slider round"></span>
+			</label>
+		</div>	
+	</body>
+</html>	
