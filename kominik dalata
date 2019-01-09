@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+		<style>
+			.andrzej {
+				height: 90px;
+				background-image: url("123456.jpg");
+				background-size: 140px;
+				background-repeat: repeat-x;
+				background-position: right 10px top 10px ,
+				padding: 10px;
+			}
+			.bob {
+				background-repeat: no-repeat;
+				background-size: 500px;
+				background-position: center center;
+				background-attachment: fixed;
+			}	
+			.tak{
+				height: 90px;
+				background-size: 80px;
+				background-color: red;
+				background-repeat: no-repeat;
+				background-position: center;
+				background-image: url("123456.jpg");
+				text-align: center;
+			}	
+			.nie{
+				background-color: red;
+				width: 170px;
+				height: 90px;
+				}
+				
+				.nie1{
+				background-color: orange;
+				width: 170px;
+				height: 90px;
+				position-relative:
+				left: 600px;
+				top: 100px;
+				
+				}
+				
+				.nie2{
+				background-color: yellow;
+				width: 170px;
+				height: 90px;
+				}
+		</style>
+		
+	</head>
+
+	<body>
+		<header>
+			<div class="bob">
+				<div class="andrzej"><font size="1" color="blue">Restauracja Kulinaria.pl Zaprasza!</font></div>
+			<div class="nie">
+				<div class="tak"><font size="1">Dania</div></div>
+			<div class="nie1">Przekąski</div>	
+				
+			</div>
+		</header>
+	</body>
+	
+</html>	
