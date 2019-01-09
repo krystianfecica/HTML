@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			header {
+				height: 200px;
+				background-color: red;
+				background-image: url("logo.png"), url("tux.png");
+				background-size: 100px;
+				background-repeat: no-repeat;
+				background-position: right 10px top 10px , center center;
+				padding: 10px;
+			}
+			body {
+				background-image: url("132.gif");
+				background-repeat: no-repeat;
+				background-size: 100px;
+				background-position: center center;
+				background-attachment: fixed;
+			}	
+		</style>
+		
+	</head>
+
+	<body>
+		<header>
+			<h1> EZN </h1>
+			<h1> Trash </h1>
+			<h1> Trash </h1>
+			<h1> Trash </h1>
+			<h1> Trash </h1>
+			<h1> Trash </h1>
+			<h1> Trash </h1>
+			<h1> Trash </h1>
+			<h1> Trash </h1>
+			<h1> Trash </h1>
+			<h1> Trash </h1>
+			<h1> Trash </h1>
+			<h1> Trash </h1>
+			<h1> Trash </h1>
+			<h1> Trash </h1>
+			<h1> Trash </h1>
+			<h1> Trash </h1>
+			<h1> Trash </h1>
+			<h1> Trash </h1>
+			<h1> Trash </h1>
+			<h1> Trash </h1>
+			<h1> Trash </h1>
+			<h1> Trash </h1>
+			<h1> Trash </h1>
+			<h1> Trash </h1>
+			<h1> Trash </h1>
+			<h1> Trash </h1>
+			
+		</header>
+	</body>
+	
+</html>	
