@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<link rel="Stylesheet" href="new1.css">
+		<meta charset="UTF-8">
+		<title>Restauracja Kulinaria.pl</title>
+	</head>
+	
+	<body>
+		<header>
+			<h2>Restauracja Kulinaria.pl Zaprasza </h2>
+		</header>
+		
+		<div class="srodek"> 
+			<div class="pierwszy">
+				<p> Dania mięsne zamówisz już od 3252 złotych </p>
+				<p class="dol"><img src="makaron1.jpg" width="300"</p>
+				<p><a href="makaron.jpg" target="_blank">Pobierz Obraz</a></p>
+			</div>
+			
+			<div class="drugi"> 
+				<h4> Przekąski</h4>
+				<p> 9 Owoce morza 20</p>
+				<p> 10 Grzybki, warzywka, sos 15</p>
+				<p> 11 Orzechy i chipsy 10</p>
+				<p> 12 Tatar i jajo 1 </p>
+				<p> 13 Bukiet warzyw 10</p>
+			</div>
+			
+			<div class="trzeci">
+				<h3> Napoje </h3>
+				<p> 14 sok porzeczkowy 3</p>
+				<p> 15 Cola 3</p>
+				<p> 16 Woda 2</p>
+			</div>
+		</div>
+		
+		<footer>
+			<p class="dol"> Stronę internetową opracował: <i>0123456789</i></p>	
+		</footer>
+		
+	</body>
+	
+</html>
