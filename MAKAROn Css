@@ -1,0 +1,42 @@
+header {
+	background-image: url('makaron1.jpg');
+	height: 380px;
+	background-size: 33.3%;
+	color: blue;
+}
+.srodek {
+	display: flex;
+	flex-direction: row;
+}
+.pierwszy {
+	background-color: rgb(255, 218, 20);
+	width: 40%;
+	font-size: 20px;
+	height: 400px;
+	text-align: center;
+	
+}	
+
+.drugi {
+	background-color: rgb(255, 223, 90);
+	width: 30%;
+	font-size: 20px;
+	height: 400px;
+	text-align: center;
+}
+.trzeci {
+	background-color: rgb(255, 230, 136);
+	width: 30%;
+	font-size: 20px;
+	height: 400px;
+	text-align: center;
+}
+footer {
+	background-color: rgb(255, 215, 58);
+	width: 100%;
+	height: 30px;
+	color:darkblue;
+}
+.dol {
+	margin:0 !important;
+}
