@@ -1,0 +1,15 @@
+console.log("hello-plik zewnętrzny")
+
+imie=window.prompt("Wprowadź swoje imie");
+console.log(imie);
+
+nazwisko=window.prompt("Wprowadź swoje nazwisko");
+console.log(nazwisko);
+
+wiek=window.prompt("Wprowadź swoj wiek");
+console.log(wiek);
+
+zgoda_marketingowa=window.confirm("Zgoda_marketingowa");
+console.log(zgoda_marketingowa);
+
+
