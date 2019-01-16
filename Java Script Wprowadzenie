@@ -1,0 +1,40 @@
+console.log("hello-plik zewnętrzny")
+let imie = "Andrzej";
+let wiek = "21 lat";
+let zawod = ["Murarz", "Przegryw życiowy"]
+let czy_lubi_informatyke = true;
+console.log("Imie = " ,imie,
+			"wiek =" ,wiek,
+			"zawod = ",zawod,
+			"czy_lubi_informatyke", czy_lubi_informatyke);
+			
+imie="Piotr"
+wiek="17 lat"
+zawod="	Przegrwy życiowy"
+czy_lubi_informatyke="false"
+console.log("Imie = " ,imie,
+			"wiek =" ,wiek,
+			"zawod = ",zawod,
+			"czy_lubi_informatyke", czy_lubi_informatyke);
+let butelka={
+	objetosc :1.25,
+	zawartosc :["woda","E250","konserwanty"],
+	wymiary: [100,200],
+	napijsie: function() { console.log("PIJE");
+	
+}
+};
+
+console.log(butelka);
+console.log(butelka.objetosc);
+butelka.napijsie();
+
+butelka.objetosc=2;
+console.log(butelka);
+
+window.alert("Maken to kot!");
+let odpowiedz = window.confirm("Czy Miotr Palinowski jest upośledzony, jeśli tak to kliknij OK");
+console.log(odpowiedz);
+
+imie =window.prompt("Wprowadz swoje imię");
+console.log(imie);
