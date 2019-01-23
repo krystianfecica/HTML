@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Fajna strona w JS</title>
+		<meta charset="UTF-8">
+	</head>
+	<body id = "body">
+		<script>
+			let body = document.getElementById("body");
+			let text = document.createTextNode("Hello world!");
+			body.appendChild(text);
+			let paragraph = document.createElement("p");
+			let paragraphContent = document.createTextNode("TAK");
+			body.appendChild(paragraph);
+			paragraph.appendChild(paragraphContent);
+			// ************************************************
+			// łatwiej
+			let paragraph2 = document.createElement("p");
+			paragraph2.textContent = "fajny akapit";
+			body.append(paragraph2);
+			let paragraph3 = document.createElement("p");
+			paragraph3.textContent = "Nie";
+			body.insertBefore(paragraph3, paragraph);
+			body.removeChild(text);
+			let paragraph4 = document.createTextNode("Paragraph 4");
+			body.replaceChild(paragraph4, paragraph3);
+			
+			
+		</script>
+	</body>
+	
+</html>	
