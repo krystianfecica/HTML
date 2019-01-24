@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Fajna strona w JS</title>
+	</head>
+	
+	<body id="body">
+		<script>
+			let a = window.prompt("Podaj pierwsza liczbe");
+			a = parseInt(a);
+			let b = window.prompt("Podaj drugą liczbe")
+			b = parseInt(b);
+			window.alert(a+b);
+			let wynik = (a+b);
+			document.write(wynik)
+		</script>
+	</body>
+</html>	
