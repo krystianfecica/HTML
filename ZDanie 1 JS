@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Fajna strona w JS</title>
+	</head>
+	
+	<body id="body">
+		<script>
+			let a = 0.25;
+			let b = 7*  10^7;
+			let c = 2;
+			let czy = "nie";
+			let wykrzyknik = "!"
+			let text = "C:\TEMP"
+			let tak = "null"
+			console.log(c);
+			console.log(a);
+			console.log(b);
+			console.log(wykrzyknik);
+			console.log(czy);
+			console.log(text);
+			console.log(tak);
+		
+		
+		</script>
+	</body>
+</html>	
