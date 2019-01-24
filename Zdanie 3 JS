@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Fajna strona w JS</title>
+	</head>
+	
+	<body id="body">
+		<script>
+
+			let a = 2;
+			a = parseInt(a);
+			let b = 22;
+			b = parseInt(b);
+			let c = (2+2);
+			c = parseInt(c);
+			let d = (34);
+			d = parseInt(d);
+			let e = (20-3*5);
+			e = parseInt(e);
+			let wynik1 = (a+b);
+			let wynik2 = (c*a);
+			let wynik3 = (d/e);
+			document.write(wynik1, "<br>");
+			document.write(wynik2, "<br>");
+			document.write(wynik3, "<br>");
+		</script>
+	</body>
+</html>	
