@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<title> Maken to kot </title>
+	
+	<script>
+		function budzik () {
+			document.writeln("Dzwoni budzik")
+		}
+		
+		function prysznic () {
+			document.writeln("Biore przysznic")
+		}
+		function malowanie ()	{
+			ducument.writeln("Maluje sie")
+		}
+		function sniadanie ()  {
+			document.writeln("Jem sniadanie")
+		}
+		</script>
+	</head>
+	<body>
+	<script>
+		budzik();
+		prysznic();
+		malowanie();
+		sniadanie();
+	</body>
+</html>	
