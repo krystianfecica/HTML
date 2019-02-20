@@ -1,0 +1,48 @@
+<html>
+	<head>
+		<title> Maken to kot </title>
+	
+	<script>
+		let dzien_tygodnia = new Date().getDay();
+		let day;
+		switch (dzien_tygodnia) {
+		  case 0:
+			day = "Niedziela";
+			break;
+		  case 1:
+			day = "Poniedzialek";
+			break;
+		  case 2:
+			 day = "Wtorek";
+			break;
+		  case 3:
+			day = "Sroda";
+			break;
+		  case 4:
+			day = "Czwartek";
+			break;
+		  case 5:
+			day = "Piatek";
+			break;
+		  case 6:
+			day = "Sobota";
+		}
+		function data () {
+			document.writeln(day)
+			}
+	</script>
+	</head>
+	<body>
+		<script>
+			data()
+			
+			let liczba =parseInt(window.prompt("Podaj liczbe"));
+			if(liczba % 2 ==0) {
+				document.writeln("ta liczba jest parzysta")
+			}
+			else {
+				document.writeln("ta liczba jest nieparzysta")
+			}
+		</script>
+	</body>
+</html>	
