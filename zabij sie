@@ -26,3 +26,57 @@
 		sniadanie();
 	</body>
 </html>	
+
+
+							ZABIJ SIE
+
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title> Maken to Świstak </title>
+		<style>	
+		
+		
+		
+		</style>
+		<script>
+		
+		
+		</script>	
+	</head>
+	<body>
+		<table id="tabliczka" border="1"></table>
+		
+		<script>
+			for(var i=1;i<=10;i++){
+			let tr = document.createElement("tr")
+			let tabliczka = document.getElementById("tabliczka");
+			tabliczka.append(tr);
+			for(var j = 1;j<=10; j++){
+			let dt = document.createElement("td")
+			dt.innerHTML= j * i;
+			tr.append(dt);
+			if(i == j){
+			dt.style.color ="red";
+			}
+				}
+					}
+			function avg(a,b) {
+				return (a + b) / 2;
+			}			
+			function avg (tab) {
+				var sum = 0;
+				console.log(tab.lenght());
+				for(var i = 0;i<tab.lenght;i++) {
+				sum += tab[i];
+				
+				}
+				console.og(sum);
+				return sum / tab.lenght;
+			}
+			document.write(avg([2,10]));
+			
+		
+		</script>
+	</body>
+</html>
