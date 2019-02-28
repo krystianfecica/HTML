@@ -28,7 +28,7 @@
 </html>	
 
 
-							ZABIJ SIE Kurwo najgorsza smiciu jebany murzyny ci matke ruchaja btw stary ci sie puszcza z kapucynka 
+							ZABIJ SIE Kurwo najgorsza smiciu jebany murzyny ci matke ruchaja  btw stary ci sie puszcza z kapucynką ,która ma 3 nogi i jest uzależniona od bananów 
 
 <html>
 	<head>
@@ -45,22 +45,20 @@
 		</script>	
 	</head>
 	<body>
-		<table id="tabliczka" border="1"></table>
-		
 		<script>
-			for(var i=1;i<=10;i++){
-			let tr = document.createElement("tr")
-			let tabliczka = document.getElementById("tabliczka");
-			tabliczka.append(tr);
-			for(var j = 1;j<=10; j++){
-			let dt = document.createElement("td")
-			dt.innerHTML= j * i;
-			tr.append(dt);
-			if(i == j){
-			dt.style.color ="red";
+
+			function oblicz() {
+				var a = parseInt(document.getElementById("a").value);
+				var b = parseInt(document.getElementById("b").value);
+				var c = [a,b];
+				console.log(c);
+				var srednia = avg_tab(c);
+				document.write(srednia);
+			
+			
 			}
-				}
-					}
+
+
 			function avg(a,b) {
 				return (a + b) / 2;
 			}			
@@ -76,7 +74,16 @@
 			document.write("<br>");
 			document.write(avg_tab([2,10]));
 			
-		
+			
 		</script>
+		 <div>
+			 
+				<form action="#">
+					<input type="number" id="a">
+					<input type="number" id="b">
+				</form>	
+					<button onclick="oblicz()">TAK</button>
+			</div>
+				
 	</body>
 </html>
