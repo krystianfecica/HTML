@@ -28,7 +28,7 @@
 </html>	
 
 
-							ZABIJ SIE
+							ZABIJ SIE Kurwo najgorsza smiciu jebany murzyny ci matke ruchaja btw stary ci sie puszcza z kapucynka 
 
 <html>
 	<head>
@@ -64,17 +64,17 @@
 			function avg(a,b) {
 				return (a + b) / 2;
 			}			
-			function avg (tab) {
+			function avg_tab(tab) {
 				var sum = 0;
-				console.log(tab.lenght());
-				for(var i = 0;i<tab.lenght;i++) {
-				sum += tab[i];
+				for(var i = 0;i<tab.length;i++) {
+				sum = sum + tab[i];
 				
 				}
-				console.og(sum);
-				return sum / tab.lenght;
+				return sum / tab.length;
 			}
-			document.write(avg([2,10]));
+			document.write(avg(2,10));
+			document.write("<br>");
+			document.write(avg_tab([2,10]));
 			
 		
 		</script>
