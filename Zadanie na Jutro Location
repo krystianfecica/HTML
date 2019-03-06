@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Maken to świstak</title>
+</head>
+<body>
+	<p>Fajne funkcje location</p>
+
+	<button onclick="funkcja()">Href</button>
+	<button onclick="funkcja1()">Assaign</button>
+	<button onclick="funkcja2()">Reload</button>
+	<button onclick="funkcja3()">Hash</button>
+	<button onclick="funkcja4()">Protocol</button>
+	<button onclick="funkcja5()">Host</button>
+	<button onclick="funkcja6()">Hostname</button>
+	<button onclick="funkcja7()">Pathname</button>
+	<button onclick="funkcja8()">Replace</button>
+
+	<p id="nie"></p>
+	<p id="tak1"></p>
+	<p id="tak2"></p>
+	<p><b>Notka: </b>Jeśli numer portu jest domyślny (80 dla http i 443 dla https), większość przeglądarek wyświetli 0 lub nic</p>
+	<p id="tak3"></p>
+	<p id="tak4"></p>
+	<p id="tak5"></p>
+	<p id="tak6"></p>
+
+
+	<script>
+		function funkcja() {
+		  var x = location.href;
+		  document.getElementById("nie").innerHTML = x;
+		}
+		function funkcja1() {
+		  location.assign("http://aplikacje.vector.org.pl");
+		}
+		function funkcja2() {
+		  location.reload();
+		}
+		function funkcja3() {
+		  location.hash = "TAKK";
+		  var x = "Tak fajna rzecz " + location.hash;
+		  document.getElementById("tak1").innerHTML = x;
+		}
+		document.getElementById("tak2").innerHTML = 
+		"Port URL " + window.location.port;
+		
+		function funkcja4() {
+		  var x = location.protocol;
+		  document.getElementById("tak3").innerHTML = x;
+		}
+		function funkcja5() {
+		  var x = location.host;
+		  document.getElementById("tak4").innerHTML = x;
+		}
+		function funkcja6() {
+		  var x = location.hostname;
+		  document.getElementById("tak5").innerHTML= x;
+		}
+		function funkcja7() {
+		  var x = location.pathname;
+		  document.getElementById("tak6").innerHTML = x;
+		}
+		function funkcja8() {
+		  location.replace("http://aplikacje.vector.org.pl")
+		}
+	</script>
+	
+
+</body>
+</html>
+
