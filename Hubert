@@ -1,0 +1,76 @@
+<html>
+	<head>
+		<title>Ale fajen gra</title>
+		<style>
+			.board{
+			width: 400px;
+			height: 400px;
+			margin: auto auto;
+			border: 2px solid black;
+			background-color: gray;
+			position: relative;
+			}
+			.enemy{
+			width: 100px;
+			height: 100px;
+			background-image: url('https://s2.fbcdn.pl/6/clubs/67996/gallery/220416/t/nowa-galeria-4896791.jpg');
+			background-size: contain;
+			background-repeat: no-repeat;
+			position: absolute;	
+			transition: all 0.5s linear;
+			}		
+		</style>
+	</head>
+	<body>
+		<div id="board" class="board"></div>
+		<button onclick=enemy1.moveGora()>GORA</button>
+		<button onclick=enemy1.moveDol()>DOL</button>
+		<button onclick=enemy1.movePrawo()>PRAWO</button>
+		<button onclick=enemy1.moveLewo()>LEWO</button>
+			
+		<script>
+		function Enemy(name, speed) {
+			this.name = name;
+			this.speed = speed || 0;
+			this.pos_x = 0;
+			this.pos_y = 0;
+			
+			
+			this.move = function(x,y){
+				 this.pos_x = x = Math.min(x, 500);
+				 this.pos_y = y = Math.max(y, 500);
+				
+					
+				 
+				 
+				 this.enemy.style.top = this.pos_y + "px";
+				 this.enemy.style.left = this.pos_x + "px";
+			}
+			this.show = function(){
+				let board = document.getElementById('board');
+				this.enemy = document.createElement('div');
+				this.enemy.classList.add('enemy');
+				board.append(this.enemy);
+				
+			}
+			this.moveLewo = function() {
+          this.move(this.pos_x - 15, this.pos_y);}
+		  
+		  
+			this.moveGora = function() {
+          this.move(this.pos_x, this.pos_y - 15);}
+		  
+		  
+			this.moveDol = function() {
+          this.move(this.pos_x, this.pos_y + 15);}
+		  
+		  
+			this.movePrawo = function() {
+          this.move(this.pos_x + 15, this.pos_y);}
+		}
+		let enemy1 = new Enemy("nazwa postaci 0.2s", 10);
+		enemy1.show();
+		enemy1.move(200,200);
+		</script>		
+	</body>
+</html>
