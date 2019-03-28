@@ -1,0 +1,91 @@
+<html>
+	<head>
+	<title>Maken to kot </title>
+	<style>
+	.top {
+		background-color:lime;
+		height:40% ;
+		width: 100%;
+}
+	.mid {
+		background-color:lightgreen;
+		height:10%;
+		width: 100%;
+		text-align: center;
+		
+
+}		
+	.bottom {
+		background-color:lightblue;
+		height:50%;
+		width: 100%;
+		text-align: center;
+		
+}
+
+	img {
+		height: 200px;
+		width: 200px;
+}
+
+	.image {
+	position: absolute;
+	top: 50px;	
+	left: 20px;
+	border: 2px solid red;
+
+}
+.image1 {
+	position: absolute;
+	top: 50px;	
+	left: 250px;
+
+}
+.image2 {
+	position: absolute;
+	top: 50px;	
+	left: 500px;
+
+}
+.image3 {
+	position: absolute;
+	top: 50px;	
+	left: 750px;
+
+}
+.image4 {
+	position: absolute;
+	top: 50px;	
+	left: 1000px;
+
+}
+	
+	</style>
+	</head>
+	<body>
+		<div class="top">
+			<div class="image">
+				<img src=https://www.pluszaki.com/images/roxi/11698mini.jpg></img>
+			</div>
+		<div class="image1">
+			<img src=https://www.wykop.pl/cdn/c3397993/link_OOuPDT4JcSeCmdq4FbjpuB00hPGhR5tK,w300h223.jpg></img>
+		</div>
+		<div class="image2">
+			<img src=https://cdn.smyk.com/media/catalog/product/cache/1/image/750x750/2091d5c437d0f7138d5a951d6205592d/7/4/745501.jpg></img>
+		</div>
+		<div class="image3">
+			<img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsylbO7z492gV5uPwH4BG8EGSQM4b8Bj9XsztSEQEWzdIO7e6z></img></div>
+		<div class="image4">
+			<img src=https://cdn.galleries.smcloud.net/t/galleries/gf-9WEL-skXd-5ws4_wilk-pogryzl-dzieci-na-wakacjach-664x442-nocrop.jpg></img>
+		</div>
+		</div>
+		<div class="mid"><strong>PAPUGA</strong></div>
+		<div class="bottom">
+		<div><strong>Papużko, papużko,</strong></div>
+		<div><strong>Powiesz mi coś na uszko,</strong></div>
+		<div><strong>Nic nie powiem, boś ty plotkarz,</strong></div>
+		<div><strong>Powtórzysz każdemu, kogo spotkasz</strong></div>
+	</div>	
+	</body>
+</html>
+
