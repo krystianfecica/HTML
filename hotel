@@ -1,0 +1,49 @@
+<html>
+	<head>
+	<title>Maken to zwierzok</title>
+		<style>
+			.box {
+			background-color: #1D93D1;
+			height: 160px;
+			width: 450px;
+			border: solid red 1px;
+}
+			.box1 {
+			background-color: #A40563;
+			height: 140px;
+			width: 450px;
+			border: solid red 1px;
+}			
+		
+		
+		
+		</style>
+		<script>
+		function przelicz() {
+		var dor=document.getElementById("d1").value;
+		var dz=document.getElementById("d2").value;
+		var dni=document.getElementById("d3").value;
+		if (!isNaN(dor) && !isNaN(dz) && !isNaN(dni) && dor!="" && dz!="" && dni!="");
+
+		var koszt=(dor*35+dz*25)*dni;
+		document.getElementById("wynik").innerHTML= "Dokonales rezerwacji na "+dni+" dni <br> dla "+dor+" doroslych i  "+dz+" dzieci.<br>	Koszt calkowity nocelegow wynosi "+koszt+" zl."; 		
+		}
+		</script>
+	</head>
+	<body>
+		<div class="box" id="formularz">
+		<form method="post">
+		<table>
+		<tr><td>Podaj liczbę dorosłych:</td><td><input type="text" id="d1"></td></tr>
+		<tr><td>Podaj liczę dzieci:</td><td><input type="text" id="d2"></td></tr>
+		<tr><td>Podaj liczbę dni:</td><td><input type="text" id="d3"></td></tr>
+		<tr><td colspan="2" align="right">
+		<input type="button" id="przycisk" value="Oblicz" onclick="przelicz() ">
+		</td></tr>
+		</table></form></div>
+		<div class="box1" id="wynik"></div>
+		
+	</body>
+	
+</html>
+
