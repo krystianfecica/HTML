@@ -1,0 +1,40 @@
+<html>
+	<head>
+	<title>Maken to zwierzok</title>
+		<style>
+			.box {
+			background-color: lightblue;
+			height: 180px;
+			width: 500px;
+}
+		
+		</style>
+		<script>
+		function przelicz() {
+		var dor=document.getElementbyId("d1").value;
+		var dz=document.getElementbyId("d2").value;
+		var dni=document.getElementbyId("d3").value;
+		if (!isNaN(dor) && !isNaN(dz) && !isNaN(dni) && dor!="" && dz!="" && dni!="");
+}
+		var koszt=(dor*35+dz*25)*dni;
+		document.getElementById("wynik").innerHTML="Dokonałeś rezerwacji na "+dni+" dni <br> dla "+dor+" dorosłych "+dz+ "
+		dzieci.<br>Koszt całkowity nocelegów wynosi" "+koszt+" zł.";
+}}
+		</script>
+	</head>
+	<body>
+		<div class="box" id="formularz">
+		<form method="post">
+		<table>
+		<tr><td>Podaj liczbę dorosłych:</td><td><input type="text" id="d1"></td></tr>
+		<tr><td>Podaj liczę dzieci:</td><td><input type="text" id="d2"></td></tr>
+		<tr><td>Podaj liczbę dni:</td><td><input type="text" id="d3"></td></tr>
+		<input type="button" id="przycisk" value="Oblicz" onClick="przelicz()">
+		</td></tr>
+		</table></form></div>
+		<div id="wynik"></div>
+		
+	</body>
+	
+</html>
+
