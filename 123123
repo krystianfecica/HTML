@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>Maken to Fejsita krul</title>
+        <style>
+			.button {
+				background-color: #CC99FF;
+				  border: none;
+				  color: white;
+				  padding: 10px 32px;
+				  text-align: center;
+				  font-size: 12px;
+				  border: solid rex 1px;
+				}
+				.wynik {
+					display: grid:
+					grid-template
+				}
+
+        </style>
+        <script>
+
+        function pobierzDane() {
+          var xmlhttp = new XMLHttpRequest();
+          var url = "https://jsonplaceholder.typicode.com/users";
+
+          xmlhttp.onreadystatechange = function() {
+          if (this.readyState == 4 && this.status == 200) {
+            var a = JSON.parse(this.responseText);
+            console.log(a);
+            wyswietl(a);
+          }
+        };
+        xmlhttp.open("GET", url, true);
+        xmlhttp.send();
+        }
+        function wyswietl(e) {
+          for(var i = 0;i<e.length;i++) {
+            console.log("UZYTKOWNIK"+i);
+            let user = e[i];
+				document.getElementById("wynik").innerHTML+=user.name;
+            console.log(user);
+          }
+
+        }
+        </script>
+    </head>
+    <body>	
+			<div id= "wynik">
+		
+				
+
+				<button class="button" onclick=pobierzDane()>Pobierz</button>
+			</div>
+    </body>
+</html>
