@@ -1,4 +1,4 @@
- create table osoba10
+ create table osoba01
 (id_os int auto_increment primary key not null,
 imie varchar(20) not null,
 nazwisko varchar(20),
