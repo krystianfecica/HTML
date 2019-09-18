@@ -1,0 +1,25 @@
+create table ksiazka
+(id_ks int auto_increment primary key not null,
+tytul varchar(60),
+cena decimal,
+wydawnicstwo varchar(30),
+miasto varchar(30),
+jezyk varchar(30),
+autor varchar(50));
+
+insert into ksiazka
+values(null, "Maken to kasztan", 12, "Haribo", "Wroclaw", "Polski", "Piotr Maken Malinowski"),
+(null, "Maken to kocur", 68, "Haribo", "Wroclaw", "Polski", "Piotr Maken Malinowski"),
+(null, "Piotr proplayer", 9, "Plot", "Poznan", "Polski", "Adam Waligora"),
+(null, "Angel", 88, "Hugo", "London", "Angielski", "John Smith"),
+(null, "Minecraft", 199, "Mojang", "Warszawa", "Polski", "Krystian Bobek"),
+(null, "Bialy kon", 9, "WSIP", "Poznan", "Polski", "Piotr Maken Malinowski"),
+(null, "Abazur", 44, "Gornik", "Zielona Gora", "Polski", "Milosz Czapla"),
+(null, "Gryzienie ciasta", 199, "Jozin", "Wroclaw", "Polski", "Grzegorz Sidla"),
+(null, "Tymbarkix", 199, "Hogwart", "Gdansk", "Polski", "Dariusz Maloletni"),
+(null, "Gruby to kozak", 9, "Haribo", "Wroclaw", "Polski", "Piotr Maken Malinowski"),
+(null, "Koza", 14, "Bagins", "Krakow", "Angielski", "Lukasz Fred"),
+(null, "Kangury", 55, "Haribo", "Wroclaw", "Polski", "Piotr Maken Malinowski"),
+(null, "Historie Makena", 83, "Harbig", "Wroclaw", "Polski", "Damian Juzio"),
+(null, "Mafia", 44, "Bogdaniec", "Bogdanow", "Niemiecki", "Franek Bibula"),
+(null, "Abdul Ahmed", 123, "Allahaku", "Egipt", "Angielski", "Abdul Ahmed");
