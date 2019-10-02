@@ -1,0 +1,25 @@
+ create table osoba01
+(id_os int auto_increment primary key not null,
+imie varchar(20) not null,
+nazwisko varchar(20),
+data_urodzenia date,
+wynagrodzenie int,
+miejscowosc varchar(30),
+ulica varchar(30));
+
+insert into osoba01
+values(null, "Magda", "Tubylec", '1991-06-06', 2500, "Wroclaw", "Fajna"), 
+(null, "Bob", "Kasztan", '1992-06-06', 2500, "Wroclaw", "Gruba"), 
+(null, "Borys", "Gruby", '1993-06-06', 2500, "Warszawa", "Kasztanowa"),  
+(null, "Abdul", "Kapec", '1994-05-06', 8000, "Poznan", "Gruba"), 
+(null, "Ahmed", "Kolontaj", '1995-01-01', 8000, "Wroclaw", "Autyzma"), 
+(null, "Marcin", "Boberski", '1981-04-05', 5555, "Wroclaw", "Lipowa"),  
+(null, "Piotr", "Amatorski", '1955-11-11', 4000, "Wroclaw", "Debowa"), 
+(null, "Pawel", "Kaczynski", '1990-03-05', 2666, "Wroclaw", "Biala"), 
+(null, "Ula", "Tusk", '1909-12-12', 4666, "Wroclaw", "Czarna"), 
+(null, "Adam", "Korwin", '2000-09-11', 7777, "Wroclaw", "Zielona"), 
+(null, "Artur", "Ulany", '2001-03-06', 7788, "Krakow", "Miodowa"), 
+(null, "Hugo", "Ferdek", '2003-02-06', 7222, "Wroclaw", "Tajna"), 
+(null, "Borys", "Kurtyna", '1987-02-01', 5555, "Wroclaw", "Ruda"), 
+(null, "Michal", "Luzacki", '1988-03-01', 3456, "Wroclaw", "Stefana"), 
+(null, "Jozef", "Franczewski", '1981-03-04', 6543, "Wroclaw", "Pomaranczowa"); 
