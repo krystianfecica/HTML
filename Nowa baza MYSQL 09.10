@@ -1,0 +1,29 @@
+create table Employee
+(id_emp int auto_increment primary key not null,
+FirstName varchar(20),
+SecondName varchar(20),
+LastName varchar(20),
+Gender varchar(1),
+BirthDay date,
+Salary decimal,
+id_departament int,
+HireDate date,
+RelieveDate date,
+Active int);
+
+insert into Employee
+values(null, "Magda", "Maria", "Tubylec", "F", '1999-12-12', 2250, 1, '2010-09-12', null, 1),
+(null, "Magda", null, "Tamburyn", "F", '1993-12-12', 2250, 3, '2010-03-12', null, 1),
+(null, "Bogdan", "Stefan", "Bobr", "M", '1993-10-11', 2250, 2, '2011-06-12', '2019-05-05', 0),
+(null, "Adrian", "Jawny", "Baran", "M", '1998-12-01', 10000, 7, '2012-03-11', null, 1),
+(null, "Borys", null, "Lulek", "M", '1991-01-01', 10000, 1, '2012-03-12', '2017-01-01', 1),
+(null, "Magda", "Joanna", "Tubylec", "F", '1955-11-05', 4250, 4, '1999-09-11', null, 1),
+(null, "Damian", "Franciszek", "Bogdanowicz", "M", '1911-12-10', 10000, 6, '1985-09-12', null, 1),
+(null, "Wawrzyniec", "Dominik", "Turban", "M", '1977-05-12', 7750, 5, '2010-09-12', 2010-10-12, 1),
+(null, "Grzegorz", null, "Tania", "M", '1912-12-12', 3350, 4, '1930-09-12', null, 1),
+(null, "Hanna", null, "Hugo", "F", '1989-12-12', 2450, 2, '2011-03-12', null, 1),
+(null, "Bozena", null, "Ulana", "F", '1996-11-12', 7650, 9, '2011-03-12', null, 1),
+(null, "Mateusz", "Krystian", "Kasztan", "M", '1977-11-11', 8850, 1, '2013-09-12', '2014-03-03', 0),
+(null, "Wojtek", null, "Tarmun", "M", '1988-04-04', 8200, 1, '1998-03-06', null, 1),
+(null, "Krystian", "Mateusz", "Ahmed", "M", '1966-03-01', 4250, 8, '2011-09-12', null, 1),
+(null, "Mariusz", null, "Turysta", "M", '1944-11-10', 6270, 6, '1998-03-01', '1999-01-01', 1);
