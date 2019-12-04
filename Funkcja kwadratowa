@@ -1,0 +1,29 @@
+<?php
+	$a=1;
+	$b=4;
+	$c=4;
+	$delta= $b*$b + (-4)*$a*$c;
+	echo "Delta	 = ";
+	echo $delta;
+		if ($delta>0) {
+	echo "<br>", "Pierwiastek z delty jest = ";
+		$pierwiastek= pow($delta,1/2);
+	echo $pierwiastek;
+		$x1= (-$b+$pierwiastek)/2*$a;
+	echo "<br>", "Pierwiastek x1 jest = ";
+	echo $x1;
+		$x2=(-$b-$pierwiastek)/2*$a;
+	echo "<br>", "Pierwiastek x2 jest = ";
+		echo $x2;
+		}
+	else if ($delta==0) {
+		$pierwiastek= round(sqrt($delta),2);  
+		echo "<br>", "Pierwiastek z delty wynosi ",$pierwiastek,"<br>";
+		$x0=(-$b/$a*2);
+		echo "Miejsce zerowe = ", "$x0";
+	}
+	else {
+		echo "<br>", "Brak miejsc zerowych";
+	}
+		
+?>
